@@ -127,6 +127,7 @@ const App = (): React.JSX.Element => (
   <Stack.Navigator
     screenOptions={{
       headerBackVisible: true,
+      headerTitleAlign: 'center',
     }}>
     <Stack.Screen
       name="Main"
